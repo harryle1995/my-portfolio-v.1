@@ -1,0 +1,94 @@
+/* Typography*/
+    /* Hero Customization*/
+.proper-name {
+    font-family: 'Brittany Signature', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 500%;
+    color: rgb(139, 20, 4);
+}
+
+.hero-title-name {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 550%;
+    color: rgb(66, 66, 66);
+}
+
+.hero-subtitle {
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+    /* Section Content */
+.section-title-name {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(66, 66, 66);
+}
+
+.section-content {
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Layout */
+    /* Section 1: Hero */
+.proper-name {
+    position: relative;
+    top: 25px;
+}
+
+.profile-img {
+    position: relative;
+    z-index: -1;
+}
+
+.hero-title-name {
+    position: relative;
+    top: -40px;
+    flex: 1 1 0;
+}
+
+.hero-subtitle {
+    position: relative; 
+    top: -40px;
+}
+    /* Section 2: Introduction*/
+    /* Section 3: Expertise */
+    /* Section 4: My Projects */
+    /* Section 5: Slogan */
+    /* Section 6: Hobbies */
+    /* Section 7: Contact */
+
+/* Responsiveness */
+/* Cellphones */
+@media (max-width: 576px) {
+    .proper-name {
+        font-size: 250%;
+        top: 10px;
+    }
+    .profile-img {
+        height: 150px ;
+    }
+    .hero-title-name {
+        font-size: 200%;
+        top: -17px;
+    }
+    .hero-subtitle {
+        font-size: 100%;
+        top: -20px;
+    }
+    .section-title-name {
+        font-size: 150%;
+    }
+}
